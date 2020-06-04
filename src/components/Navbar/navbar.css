@@ -1,0 +1,13 @@
+.nav-item-name {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 300;
+}
+
+.nav-item-name p:hover {
+  color: #2d3436;
+  font-size: 20px;
+}
+/* 
+@media screen and (max-width: 500px) {
+
+} */
