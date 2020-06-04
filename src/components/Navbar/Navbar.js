@@ -28,7 +28,7 @@ export const Navbar = () => {
           <ul class="navbar-nav mr-auto"></ul>
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link nav-item-name" href="#">
+              <a class="nav-link nav-item-name" href="#home">
                 <p>HOME</p>
               </a>
             </li>
@@ -38,12 +38,12 @@ export const Navbar = () => {
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-item-name" href="#">
+              <a class="nav-link nav-item-name" href="#work">
                 <p>WORK</p>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-item-name" href="#">
+              <a class="nav-link nav-item-name" href="contact">
                 <p>CONTACT</p>
               </a>
             </li>

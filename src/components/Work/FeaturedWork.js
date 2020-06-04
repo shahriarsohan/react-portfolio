@@ -6,7 +6,7 @@ import "./featuredwork.css";
 export default class FeaturedWork extends Component {
   render() {
     return (
-      <div className="container">
+      <div id="work" className="container">
         <div className="section-header">
           <h2>02.Some of my work</h2>
         </div>
