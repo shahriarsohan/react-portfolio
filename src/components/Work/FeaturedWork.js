@@ -67,23 +67,28 @@ export default class FeaturedWork extends Component {
         <div className="row mt-3">
           <div className="col-lg-7 col-md-7 col-sm-7 col-xs-12 thumbnail1">
             <div className="project-title">
-              <p>OctoProfile Projects</p>
+              <p>Weather Application</p>
             </div>
             <div className="project-desc">
               <p>
-                A nicer look at your GitHub profile and repo stats. Includes
-                data visualizations of your top languages, starred repositories,
-                and sort through your top repos by number of stars, forks, and
-                size
+                A nicer look weather app.Its a very simple weather realtime
+                weather app with openweathermap API.
               </p>
             </div>
             <div className="project-link2 mb-2">
-              <a target="_blank" href="#">
+              <a
+                target="_blank"
+                href="https://github.com/shahriarsohan/weather-app"
+              >
                 <button type="button" class="btn btn-outline-success">
                   <i class="fab fa-github"></i>
                 </button>
               </a>
-              <a target="_blank" className="ml-3" href="#">
+              <a
+                target="_blank"
+                className="ml-3"
+                href="https://blissful-kalam-4fc377.netlify.app/"
+              >
                 <button type="button" class="btn btn-outline-danger">
                   <i class="fas fa-share"></i>
                 </button>
@@ -93,7 +98,7 @@ export default class FeaturedWork extends Component {
           <div className="col-lg-5 col-md-5 col-sm-5 col-xs-12 thumbnail1">
             <img
               class="image"
-              src={require("../../assets/PJ.jpg")}
+              src={require("../../assets/proj2")}
               alt="project-thumbnail"
             />
             <div class="middle">
