@@ -98,7 +98,7 @@ export default class FeaturedWork extends Component {
           <div className="col-lg-5 col-md-5 col-sm-5 col-xs-12 thumbnail1">
             <img
               class="image"
-              src={require("../../assets/proj2")}
+              src={require("../../assets/proj2.png")}
               alt="project-thumbnail"
             />
             <div class="middle">
