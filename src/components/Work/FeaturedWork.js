@@ -14,12 +14,15 @@ export default class FeaturedWork extends Component {
           <div className="col-lg-5 col-md-5 col-sm-5 col-xs-12 thumbnail1">
             <img
               class="image"
-              src={require("../../assets/PJ.jpg")}
+              src={require("../../assets/project1.png")}
               alt="project-thumbnail"
             />
             <div class="middle">
               <div class="text">
-                <a target="_blank" href="#">
+                <a
+                  target="_blank"
+                  href="https://frosty-shannon-097385.netlify.app/"
+                >
                   <i class="fas fa-share"></i>
                 </a>
               </div>
@@ -27,23 +30,32 @@ export default class FeaturedWork extends Component {
           </div>
           <div className="col-lg-7 col-md-7 col-sm-7 col-xs-12 thumbnail1">
             <div className="project-title">
-              <p>OctoProfile Projects</p>
+              <p>Covid-19 Tracker Projects</p>
             </div>
             <div className="project-desc">
               <p>
-                A nicer look at your GitHub profile and repo stats. Includes
-                data visualizations of your top languages, starred repositories,
-                and sort through your top repos by number of stars, forks, and
-                size
+                Its a covid 19 statistics app powered by <b>React js</b> and{" "}
+                <b>chart js</b>.Here you will find everyday stats of covid 19
+                with user friendly UI.
+                <p>
+                  <b>Stay Home and be safe</b>
+                </p>
               </p>
             </div>
             <div className="project-link">
-              <a target="_blank" href="#">
+              <a
+                target="_blank"
+                href="https://github.com/shahriarsohan/corona-tracker"
+              >
                 <button type="button" class="btn btn-outline-success">
                   <i class="fab fa-github"></i>
                 </button>
               </a>
-              <a target="_blank" className="ml-3" href="#">
+              <a
+                target="_blank"
+                className="ml-3"
+                href="https://frosty-shannon-097385.netlify.app/"
+              >
                 <button type="button" class="btn btn-outline-danger">
                   <i class="fas fa-share"></i>
                 </button>
